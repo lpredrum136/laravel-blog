@@ -1,0 +1,8 @@
+Update table after change? Because you forget to add a column for example?
+You make changes in migration file, run php artisan migrate but receive 'Nothing to migrate'?
+
+https://stackoverflow.com/questions/16791613/add-a-new-column-to-existing-table-in-a-migration
+https://stackoverflow.com/questions/54967888/laravel-php-artisan-migrate-is-not-updating-the-changes
+https://stackoverflow.com/questions/41205844/how-can-i-modify-a-migration-in-laravel
+
+or simply run php artisan migrate:fresh --seed to redo everything again, so don't do it in production or when you don't wanna lose data.
