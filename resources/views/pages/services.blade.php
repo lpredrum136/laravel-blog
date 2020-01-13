@@ -1,4 +1,6 @@
-@extends('layout/base') @section('content')
+@extends('layout/base') 
+
+@section('content')
 <body>
     <h1>{{ $title }}</h1>
     <p>This is the Services we provide</p>

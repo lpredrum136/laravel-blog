@@ -20,6 +20,9 @@
         <a class="nav-link" href="/posts/create">Create Post</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="/posts">Posts</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="/users/logout">Logout</a>
       </li>
       <li class="nav-item">

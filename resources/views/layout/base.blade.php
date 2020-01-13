@@ -42,7 +42,8 @@
 
         @yield('landing-jumbotron')
         
-        <div class="container">        
+        <div class="container">
+            @include('inc/messages')        
             @yield('content')
         </div>
 

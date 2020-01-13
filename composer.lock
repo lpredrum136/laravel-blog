@@ -4,8 +4,50 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3bb4dacacf43532a01bf1d3d6dd3bbe1",
+    "content-hash": "6df2715be08e435fd9ba0fef5caab2e5",
     "packages": [
+        {
+            "name": "ckeditor/ckeditor",
+            "version": "4.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ckeditor/ckeditor4-releases.git",
+                "reference": "83ca48a5356d10cc7aec6a9e36f327b8bc1b5f2a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ckeditor/ckeditor4-releases/zipball/83ca48a5356d10cc7aec6a9e36f327b8bc1b5f2a",
+                "reference": "83ca48a5356d10cc7aec6a9e36f327b8bc1b5f2a",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+",
+                "LGPL-2.1+",
+                "MPL-1.1+"
+            ],
+            "authors": [
+                {
+                    "name": "CKSource",
+                    "homepage": "https://cksource.com"
+                }
+            ],
+            "description": "JavaScript WYSIWYG web text editor.",
+            "homepage": "https://ckeditor.com/ckeditor-4/",
+            "keywords": [
+                "CKEditor",
+                "ckeditor4",
+                "editor",
+                "fckeditor",
+                "html",
+                "javascript",
+                "richtext",
+                "text",
+                "wysiwyg"
+            ],
+            "time": "2019-12-09T13:24:37+00:00"
+        },
         {
             "name": "dnoegel/php-xdg-base-dir",
             "version": "v0.1.1",
@@ -630,6 +672,74 @@
                 "psysh"
             ],
             "time": "2019-11-26T17:57:28+00:00"
+        },
+        {
+            "name": "laravelcollective/html",
+            "version": "v6.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LaravelCollective/html.git",
+                "reference": "bcc317d21a7e04eebcc81c4109fa84feaab63590"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LaravelCollective/html/zipball/bcc317d21a7e04eebcc81c4109fa84feaab63590",
+                "reference": "bcc317d21a7e04eebcc81c4109fa84feaab63590",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/http": "^6.0",
+                "illuminate/routing": "^6.0",
+                "illuminate/session": "^6.0",
+                "illuminate/support": "^6.0",
+                "illuminate/view": "^6.0",
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "illuminate/database": "^6.0",
+                "mockery/mockery": "~1.0",
+                "phpunit/phpunit": "~7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "6.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Collective\\Html\\HtmlServiceProvider"
+                    ],
+                    "aliases": {
+                        "Form": "Collective\\Html\\FormFacade",
+                        "Html": "Collective\\Html\\HtmlFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Collective\\Html\\": "src/"
+                },
+                "files": [
+                    "src/helpers.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Adam Engebretson",
+                    "email": "adam@laravelcollective.com"
+                },
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylorotwell@gmail.com"
+                }
+            ],
+            "description": "HTML and Form Builders for the Laravel Framework",
+            "homepage": "https://laravelcollective.com",
+            "time": "2019-10-02T00:37:39+00:00"
         },
         {
             "name": "league/commonmark",
