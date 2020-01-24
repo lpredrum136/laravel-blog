@@ -11,8 +11,10 @@
         </a>
       </h3>
       <div class="row">
-          <div class="col-md-3">Image here</div>
-          <div class="col-md-9">
+          <div class="col-md-4 col-sm-4">
+            <img src="/storage/cover_image/{{$post->cover_image}}" alt="" style="width: 100%">
+          </div>
+          <div class="col-md-8 col-sm-8">
               {!! $post->body !!}
               <br />
 
@@ -21,6 +23,7 @@
                 <span class="badge badge-secondary">
                     Category?
                 </span>
+                by {{ $post->user->name }}
             </small>
           </div>
       </div>

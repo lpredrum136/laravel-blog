@@ -14,4 +14,9 @@ class Post extends Model
 
     // Timestamps
     public $timestamps = true; // Again, by default. But if you don't want created_at or updated_at fields, set this to false
+
+    public function user()
+    {
+        return $this->belongsTo('App\User');
+    }
 }
